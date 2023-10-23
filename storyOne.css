@@ -3,6 +3,8 @@ html{
 }
 body{
     margin: 0;
+    cursor: url(''), auto;
+  
 }
 header{
     height: 100vh;
@@ -23,12 +25,20 @@ h1{
     display: flex;
 }
 header a{
-    background: whitesmoke;
+    background: rgb(223,154,154);
+background: linear-gradient(90deg, rgba(223,154,154,0.5160189075630253) 0%, rgba(207,1,47,0.5104166666666667) 50%, rgba(220,219,250,0.4939017843465511) 100%);
+    /* background: whitesmoke; */
     font-size: 1.5rem;
-    color: black;
+    color: rgb(75, 73, 73);
     text-align: center;
     padding: 1rem;
     text-decoration: none;
+    
+}
+header a:hover{
+
+    background: rgb(236, 71, 71);
+    color: rgb(254, 254, 254);
 }
 .scrollContainer{
     width: 100vw;
@@ -42,9 +52,12 @@ header a{
     padding: 10rem;
     background: rgba(255, 255, 255, 0.8);
     color: #000;
-    display: flex;
+    box-shadow: 5px 5px 5px 5px rgb(244, 94, 94);
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
 }
 #introduction{
     background-image: url("https://picfiles.alphacoders.com/588/588979.jpg");
