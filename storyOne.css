@@ -19,6 +19,8 @@ h1{
     font-size: 3rem;
     color: #fff;
     text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    display: flex;
 }
 header a{
     background: whitesmoke;
@@ -27,4 +29,34 @@ header a{
     text-align: center;
     padding: 1rem;
     text-decoration: none;
+}
+.scrollContainer{
+    width: 100vw;
+    min-height: 60vh;
+    overflow: hidden;
+}
+.scrollText{
+    margin: 50vh auto;
+    max-width: 50rem;
+    /* makes text easier to read */
+    padding: 10rem;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#introduction{
+    background-image: url("https://picfiles.alphacoders.com/588/588979.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.textSection{
+    max-width: 50rem;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+
 }
