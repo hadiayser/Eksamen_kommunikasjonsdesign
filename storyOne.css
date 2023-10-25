@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -72,4 +76,40 @@ header a:hover{
     display: block;
     clear: both;
 
+}
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        /* kilde:https://www.youtube.com/watch?v=S1LyYnyqRRs&ab_channel=OnlineTutorials */
+
+}
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+        /* kilde:https://www.youtube.com/watch?v=S1LyYnyqRRs&ab_channel=OnlineTutorials */
+
+}
+.banner h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    font-size: 10vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 100vh;
+    mix-blend-mode: screen;
+    /* kilde:https://www.youtube.com/watch?v=S1LyYnyqRRs&ab_channel=OnlineTutorials */
 }
