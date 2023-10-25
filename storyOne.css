@@ -41,9 +41,35 @@ background: linear-gradient(90deg, rgba(223,154,154,0.5160189075630253) 0%, rgba
 }
 header a:hover{
 
-    background: rgb(236, 71, 71);
-    color: rgb(254, 254, 254);
+    /* background: rgb(236, 71, 71);
+    color: rgb(254, 254, 254); */
+    background: rgb(211,3,3);
+  background: linear-gradient(90deg, rgba(211,3,3,0.8941701680672269) 0%, rgba(207,1,47,0.7541141456582633) 50%, rgba(213,0,14,0.4011729691876751) 100%);
+  color: rgb(254, 254, 254);
+  /* border: 2px solid red; */
+  /* padding: 10px 20px; */
+  /* font-size: 16px; */
+  background-color: white;
+  cursor: pointer;
+  animation: flash 2s infinite; 
 }
+@keyframes flash {
+    0% {
+        background: rgb(244, 217, 120);
+    }
+    25%{
+        background: rgb(240, 164, 58);    
+    }
+    50% {
+        background: rgb(244, 117, 48);
+    }
+    75% {
+        background: rgb(239, 95, 28);
+      }
+    100% {
+      background: rgb(243, 27, 27);
+    }
+  }
 .scrollContainer{
     width: 100vw;
     min-height: 60vh;
@@ -63,6 +89,13 @@ header a:hover{
     font-size: 25px;
     font-family:'Courier New', Courier, monospace;
 }
+/* .million{
+
+    background: url("https://deltabusinessjournal.com/wp-content/uploads/2019/06/Population-Decline-July2019.jpg");
+    background-size: cover;
+    background: rgba( 0.8);
+
+} */
 #introduction{
     background-image: url("https://picfiles.alphacoders.com/588/588979.jpg");
     background-attachment: fixed;
@@ -125,3 +158,18 @@ header a:hover{
 
 
 
+@media only screen and (max-width: 600px) {
+    
+    h1{
+        font-size: 2.5em;
+    }
+    header a {
+        margin-top: 10px;
+    }
+
+    .scrollText{
+        padding: 3rem;
+    }
+
+
+}
