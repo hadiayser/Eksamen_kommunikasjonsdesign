@@ -176,6 +176,7 @@ header a:hover{
     header a {
         margin: 6.5rem;
         text-align: center;
+        color: #fff;
     }
 
     .scrollText{
@@ -189,4 +190,14 @@ header a:hover{
     .banner p{
         margin-top: 250px;
     }
+}
+        margin: 25vh auto ;
+    }
+
+    .quote{
+        font-size: 1.3rem;
+        margin-top: 25rem;
+    }
+
+
 }
