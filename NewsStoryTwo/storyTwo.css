@@ -12,5 +12,14 @@ body{
 }
 
 header{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
     display: flex;
+    
+    background-image: url('https://scitechdaily.com/images/Future-Earth-Global-Warming.jpg');
+}
+
+header h1{
+    color: aliceblue;
 }
