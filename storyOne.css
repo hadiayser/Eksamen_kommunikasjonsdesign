@@ -201,10 +201,16 @@ header a:hover{
     position: relative;
 }
 
+.text {
+    margin-top: 25px;
+}
 
 @media only screen and (max-width: 1100px) {
     .banner p{
         margin-top: 150px;
+    }
+    .test{
+        margin-top: 800px;
     }
   
 }
