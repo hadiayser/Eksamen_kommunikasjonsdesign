@@ -247,10 +247,9 @@ header a:hover{
     }
 }
 @media only screen and (max-width: 1000px){
-    .infographic{
-      width: 50vw;
+    .infographic img{
+      width: 100%;
       display: block;
       position: relative;
-    width: 5vw;
     }
 }
