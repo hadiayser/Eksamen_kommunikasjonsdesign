@@ -225,7 +225,7 @@ header a:hover{
   
 }
 
-@media only screen and (max-width: 2200px){
+@media only screen and (min-width: 300px) and (max-width: 1500px){
     .text {
         margin-top: 23rem;
     }
