@@ -31,10 +31,11 @@ header h1{
 .container{
     width: 100%;
     align-items: center;
-    background-image: url('');
+    margin-top: 50px;
+
 }
 
-.text{
+.textContainer{
     background-color: #000;
     margin: 50vh auto;
     padding: 4rem;
@@ -46,6 +47,11 @@ header h1{
     color: #fff;
 }
 
+
 #img{
-    background-image: url('');
+    background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/1-overview-of-sea-pazeto.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
