@@ -17,12 +17,35 @@ header{
     align-items: center;
     display: flex;
     
-    background-image: url('https://scitechdaily.com/images/Future-Earth-Global-Warming.jpg');
+    background-image: url('https://gps.bard.edu/hubfs/Blog_Post_Images/Seal%20Level%20Rise%20by%202100.jpg');
 }
 /*
 kilder:
 https://scitechdaily.com/global-temperature-reconstruction-over-last-24000-years-show-todays-warming-unprecedented/
 */
 header h1{
-    color: aliceblue;
+    color: #000;
+    font-size: 2rem;
+}
+
+.container{
+    width: 100%;
+    align-items: center;
+    background-image: url('');
+}
+
+.text{
+    background-color: #000;
+    margin: 50vh auto;
+    padding: 4rem;
+    width: 50%;
+    border: 4px solid grey;
+    box-shadow: 1px 1px 8px 5px gray;
+    font-size: 1.3rem;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+#img{
+    background-image: url('');
 }
