@@ -1,83 +1,133 @@
+<!-- HUSK "npm install chart.js" FOR Å SE CHART.JS LINJEGRAFEN -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../NewsStoryTwo/storyTwo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../NewsStoryTwo/storyTwo.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script src="lineChart.js"></script> -->
     <title>Scorching temperatures</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div>
-            <h1>
-                Title - Rising Tides, Sinking Cities: Amsterdam's Battle for Survival
-            </h1>
-        </div>
+      <div>
+        <h1>
+          Title - Rising Tides, Sinking Cities: Amsterdam's Battle for Survival
+        </h1>
+      </div>
     </header>
     <section class="container" id="img">
-        <div class="textContainer">
-            <p>
-                Amsterdam, the picturesque city of canals and historic architecture, is facing an imminent threat – rising sea levels due to climate change.
-                 This story explores the potential impact on this iconic city and its efforts to adapt.
-
-                     
-            </p>
-        </div>
-        <div class="textContainer">
-            <h2>
-                The Global Crisis:
-            </h2>
-            <p>
-                This rising tide is not a distant threat but a present reality.
-                 In 2022, the global mean sea level reached 101.2 millimeters (4 inches) above 1993 levels, the highest in the satellite record.
-                  The culprit is a combination of melting glaciers and ice sheets, coupled with the expansion of seawater as it warms.
-                   The annual rise has surged from the 20th-century average of 0.06 inches (1.4 millimeters) to 0.14 inches (3.6 millimeters) per year from 2006–2015. 
-
-            </p>
-        </div>
-        <div class="textContainer">
-            <h2>
-                Endangered Cities:
-            </h2>
-            <p>
-                From Miami to Mumbai, cities across the globe are grappling with the impending crisis.
-                  Miami, with its glittering skyline, is witnessing a relentless encroachment of seawater into its streets.¨
-                   In Asia, megacities like Bangkok and Shanghai are racing against time to fortify against the rising tide. 
-                   If the world fails to meet the carbon emission reduction targets of the Paris Agreement, over 800 million people in 570 cities could face the extraordinary threat of rising seas by 2050.
-                    The economic toll could amount to a staggering $1 trillion by mid-century. 
-                     East coast cities in the U.S., like New York and Miami, are particularly vulnerable, experiencing sea level rise two to three times faster than the global average.
-                      The vulnerability of these cities isn't just an environmental concern but a socio-economic challenge, threatening millions with displacement.
-
-            </p>
-        </div>
-        <div class="textContainer">
-            <h2>
-                Amsterdam in Peril:
-            </h2>
-            <p>
-                Nestled in the heart of Europe, Amsterdam, with its intricate canal system, is not immune to the encroaching waters. 
-                The Royal Netherlands Meteorological Institute (KNMI) warns of increased risks, projecting more frequent storms and heavier rainfall.
-                 The city's rich history of battling water now faces an unprecedented challenge that puts its very essence at stake.
-                Amid this global crisis, Amsterdam's fate hangs in the balance. 
-                Since 1900, sea levels near the Dutch coast have risen by 19 cm, mirroring the global average. 
-                However, recent decades have seen an alarming acceleration to 3 mm per year, a 50% increase from the 20th-century average. 
-                Projections by the Royal Netherlands Meteorological Institute paint a daunting picture, with estimates of a rise between 25 to 80 cm by 2071-2100.
-
-            </p>
-        </div>
-        <div class="textContainer">
-            <h2>
-                The Call to Action: 
-            </h2>
-            <p>
-                The Dutch, masters of water management, are responding with innovation.
-                The Maeslant storm surge barrier, a marvel of engineering, stands guard against floods in Rotterdam.
-                 Built with rising sea levels in mind, it can withstand an increase of five meters. However, innovation is the new frontier.
-                  In Rotterdam, the world's first Floating Farm offers a glimpse of a climate-adaptive future, less dependent on traditional logistics. 
-                  As the world watches, this idea has sparked interest in cities like Singapore and Dubai.
-
-            </p>
-        </div>
+      <div class="textContainer">
+        <p>
+          Amsterdam, the picturesque city of canals and historic architecture,
+          is facing an imminent threat – rising sea levels due to climate
+          change. This story explores the potential impact on this iconic city
+          and its efforts to adapt.
+        </p>
+      </div>
+      <div class="textContainer">
+        <h2>The Global Crisis:</h2>
+        <p>
+          This rising tide is not a distant threat but a present reality. In
+          2022, the global mean sea level reached 101.2 millimeters (4 inches)
+          above 1993 levels, the highest in the satellite record. The culprit is
+          a combination of melting glaciers and ice sheets, coupled with the
+          expansion of seawater as it warms. The annual rise has surged from the
+          20th-century average of 0.06 inches (1.4 millimeters) to 0.14 inches
+          (3.6 millimeters) per year from 2006–2015.
+        </p>
+      </div>
+      <div class="textContainer">
+        <h2>Endangered Cities:</h2>
+        <p>
+          From Miami to Mumbai, cities across the globe are grappling with the
+          impending crisis. Miami, with its glittering skyline, is witnessing a
+          relentless encroachment of seawater into its streets.¨ In Asia,
+          megacities like Bangkok and Shanghai are racing against time to
+          fortify against the rising tide. If the world fails to meet the carbon
+          emission reduction targets of the Paris Agreement, over 800 million
+          people in 570 cities could face the extraordinary threat of rising
+          seas by 2050. The economic toll could amount to a staggering $1
+          trillion by mid-century. East coast cities in the U.S., like New York
+          and Miami, are particularly vulnerable, experiencing sea level rise
+          two to three times faster than the global average. The vulnerability
+          of these cities isn't just an environmental concern but a
+          socio-economic challenge, threatening millions with displacement.
+        </p>
+      </div>
+      <div class="textContainer">
+        <h2>Amsterdam in Peril:</h2>
+        <p>
+          Nestled in the heart of Europe, Amsterdam, with its intricate canal
+          system, is not immune to the encroaching waters. The Royal Netherlands
+          Meteorological Institute (KNMI) warns of increased risks, projecting
+          more frequent storms and heavier rainfall. The city's rich history of
+          battling water now faces an unprecedented challenge that puts its very
+          essence at stake. Amid this global crisis, Amsterdam's fate hangs in
+          the balance. Since 1900, sea levels near the Dutch coast have risen by
+          19 cm, mirroring the global average. However, recent decades have seen
+          an alarming acceleration to 3 mm per year, a 50% increase from the
+          20th-century average. Projections by the Royal Netherlands
+          Meteorological Institute paint a daunting picture, with estimates of a
+          rise between 25 to 80 cm by 2071-2100.
+        </p>
+      </div>
+      <div class="textContainer">
+        <h2>The Call to Action:</h2>
+        <p>
+          The Dutch, masters of water management, are responding with
+          innovation. The Maeslant storm surge barrier, a marvel of engineering,
+          stands guard against floods in Rotterdam. Built with rising sea levels
+          in mind, it can withstand an increase of five meters. However,
+          innovation is the new frontier. In Rotterdam, the world's first
+          Floating Farm offers a glimpse of a climate-adaptive future, less
+          dependent on traditional logistics. As the world watches, this idea
+          has sparked interest in cities like Singapore and Dubai.
+        </p>
+      </div>
     </section>
-</body>
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+    <script>
+      const ctx = document.getElementById("myChart").getContext("2d");
+
+      const setValues = [0, 2, 4, 6, 8, 8, 10, 12, 14];
+
+      const data = {
+        labels: ["1995", "1999", "2003", "2007", "2011", "2015", "2019"],
+        datasets: [
+          {
+            label: "y-axix values",
+            data: setValues,
+            borderColor: "transparent",
+            fill: false,
+          },
+          {
+            label: "Noen gang",
+            data: [5.9, 12.3, 8.9, 6.4, 5.3, 7.0, 8.7],
+            borderColor: "blue",
+            fill: false,
+          },
+          {
+            label: "Siste 12 mnd",
+            data: [5.9, 9.1, 6.2, 4.9, 4.7, 5.6, 7.1],
+            borderColor: "green",
+            fill: false,
+          },
+          {
+            label: "Siste 30 dager",
+            data: [2.7, 4.1, 2.7, 2.9, 2.0, 2.5, 4.0],
+            borderColor: "red",
+            fill: false,
+          },
+        ],
+      };
+      new Chart(ctx, {
+        type: "line",
+        data: data,
+      });
+    </script>
+  </body>
 </html>
