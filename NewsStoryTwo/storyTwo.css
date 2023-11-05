@@ -17,8 +17,9 @@ header{
     align-items: center;
     display: flex;
     
-    background-image: url('https://gps.bard.edu/hubfs/Blog_Post_Images/Seal%20Level%20Rise%20by%202100.jpg');
+    background-image: url('https://s.yimg.com/ny/api/res/1.2/dkkyYCPohg7x30xL2tZRtA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2023-07/933a6a50-1ced-11ee-add1-66196811ffe6');
 }
+/* kilde til bilde : https://s.yimg.com/ny/api/res/1.2/dkkyYCPohg7x30xL2tZRtA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2023-07/933a6a50-1ced-11ee-add1-66196811ffe6 */
 /*
 kilder:
 https://scitechdaily.com/global-temperature-reconstruction-over-last-24000-years-show-todays-warming-unprecedented/
@@ -26,6 +27,7 @@ https://scitechdaily.com/global-temperature-reconstruction-over-last-24000-years
 header h1{
     color: #000;
     font-size: 2rem;
+    background-color: #c5f87e;
 }
 
 .container{
@@ -36,7 +38,7 @@ header h1{
 }
 
 .textContainer{
-    background-color: #000;
+    background-color: #afef56;
     margin: 50vh auto;
     padding: 4rem;
     width: 50%;
@@ -49,9 +51,26 @@ header h1{
 
 
 #img{
-    background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/1-overview-of-sea-pazeto.jpg');
+    background-image: url('https://images.ctfassets.net/4f3rgqwzdznj/471UIumx1PDmewqVwjZOyo/0b32f07fac0e110ad1987d6834713754/cannabis_leaf_and_pills_1199045166.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+#start{
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#start img{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: #afef56;
+    border-radius: 5rem;
 }
