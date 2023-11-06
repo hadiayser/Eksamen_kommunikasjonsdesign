@@ -16,7 +16,8 @@ header{
     width: 100vw;
     align-items: center;
     display: flex;
-    
+    background-size: cover;
+    background-position: cover cover;
     background-image: url('https://s.yimg.com/ny/api/res/1.2/dkkyYCPohg7x30xL2tZRtA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2023-07/933a6a50-1ced-11ee-add1-66196811ffe6');
 }
 /* kilde til bilde : https://s.yimg.com/ny/api/res/1.2/dkkyYCPohg7x30xL2tZRtA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://s.yimg.com/os/creatr-uploaded-images/2023-07/933a6a50-1ced-11ee-add1-66196811ffe6 */
@@ -24,6 +25,14 @@ header{
 kilder:
 https://scitechdaily.com/global-temperature-reconstruction-over-last-24000-years-show-todays-warming-unprecedented/
 */
+
+.title{
+    font-size: 5rem;
+}
+
+header p{
+    font-size: 2rem;
+}
 header h1{
     color: #000;
     font-size: 2rem;
@@ -31,27 +40,36 @@ header h1{
 }
 
 .container{
-    width: 100%;
-    align-items: center;
-    margin-top: 50px;
+    width: 100vw;
+    min-height: 50vh;
+    /* align-items: center;
+    margin-top: 50px; */
+    overflow: hidden;
 
+}
+
+#introduction{
+    /* font-size: 2rem; */
+    margin: 50vh auto;
+    padding: 5rem;
 }
 
 .textContainer{
     background-color: #afef56;
     margin: 50vh auto;
-    padding: 4rem;
+    padding: 10rem;
     width: 50%;
     border: 4px solid grey;
     box-shadow: 1px 1px 8px 5px gray;
     font-size: 1.3rem;
     margin-bottom: 100px;
-    color: #fff;
+    color: #040404;
 }
 
 
 #img{
-    background-image: url('https://images.ctfassets.net/4f3rgqwzdznj/471UIumx1PDmewqVwjZOyo/0b32f07fac0e110ad1987d6834713754/cannabis_leaf_and_pills_1199045166.jpg');
+    /* background-image: url('https://images.ctfassets.net/4f3rgqwzdznj/471UIumx1PDmewqVwjZOyo/0b32f07fac0e110ad1987d6834713754/cannabis_leaf_and_pills_1199045166.jpg'); */
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
