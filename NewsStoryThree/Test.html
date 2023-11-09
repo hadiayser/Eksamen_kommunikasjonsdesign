@@ -8,9 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container" data-0="transform:translateX(0%);" data-1000="transform:translateX(-300%);">
+    <div class="container" data-0="transform:translateX(0%);" data-1000="transform:translateX(-400%);">
+        
         <section>
             <div class="content">
+                <!-- <div class="timeline-line"></div> -->
                 <h2>Section one</h2>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -26,6 +28,7 @@
         </section>
         <section>
             <div class="content">
+                <div class="timeline-line"> <li><span>hey</span></li> </div>
                 <h2>Section two</h2>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -41,6 +44,7 @@
         </section>
         <section>
             <div class="content">
+                <div class="timeline-line"> <li>hey</li></div>
                 <h2>Section three</h2>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -56,7 +60,24 @@
         </section>
         <section>
             <div class="content">
+                <div class="timeline-line"> <li>hey</li></div>
                 <h2>Section four</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a galley of type
+                       and scrambled it to make a type specimen book. It has survived not only
+                        five centuries, but also the leap into electronic typesetting, remaining 
+                        essentially unchanged. It was popularised in the 1960s with the release of 
+                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <div class="timeline-line"> <li>hey</li></div>
+                <h2>Section five</h2>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting
                      industry. Lorem Ipsum has been the industry's standard dummy text
@@ -73,9 +94,49 @@
 
     </div>
     <script type="text/javascript" src="skrollr.js"></script>
-	<script type="text/javascript">
-	var s = skrollr.init();
-	</script>
+<script type="text/javascript">
+    var s;
+
+    // Function to initialize or destroy Skrollr based on screen width
+    function handleSkrollr() {
+        if (window.innerWidth > 991) {
+            // Initialize Skrollr only on screens larger than 991px
+            if (!s) {
+                s = skrollr.init();
+            }
+        } else {
+            // Destroy Skrollr instance on smaller screens
+            if (s) {
+                s.destroy();
+                s = null;
+            }
+        }
+    }
+
+    // Initial call to handleSkrollr on page load
+    handleSkrollr();
+
+    // Listen for resize events and adjust Skrollr instance
+    window.addEventListener('resize', handleSkrollr);
+</script>
+    <!-- <script>
+
+
+
+var container = document.querySelector('.container');
+
+var scrollPosition = 0;
+
+
+window.addEventListener('scroll', function () {
+ 
+  scrollPosition = window.scrollY;
+
+ 
+  container.style.transform = 'translateX(' + -scrollPosition + 'px)';
+});
+
+    </script> -->
     
 </body>
 </html>
