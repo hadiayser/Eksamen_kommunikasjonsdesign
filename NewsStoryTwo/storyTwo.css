@@ -47,13 +47,52 @@ header h1{
     overflow: hidden;
 
 }
-
-#introduction{
-    /* font-size: 2rem; */
+#intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     margin: 50vh auto;
     padding: 5rem;
 }
 
+#introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; /* Adjust the gap as needed */
+    margin: 50vh auto;
+    padding: 5rem;
+}
+
+#introduction h2 {
+    grid-column: span 2; /* Span both columns */
+}
+
+#introduction img {
+    width: 100%;
+    height: auto;
+    grid-column: 2;
+}
+
+#introduction p {
+    grid-column: 1;
+}
+
+#norwaycannabis{
+    background-image: url('https://i0.wp.com/p3.no/wp-content/uploads/2014/09/weed.gif?w=1920&ssl=1');
+    background-size: cover;
+    padding: 15rem;
+    
+    /* filter: blur(5px);  */
+}
+
+
+.norwaycannabistext{
+    font-size: 1.5em;
+    background-color: #0000008f;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 4px rgba(173, 42, 42, 0.5);
+    filter: none;
+}
 .textContainer{
     /* background-color: #afef56; */
     margin: 50vh auto;
