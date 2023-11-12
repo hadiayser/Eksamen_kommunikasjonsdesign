@@ -318,21 +318,19 @@
                     });
                 }
         
-                // Initial check in case the element is already visible on page load
                 fadeInOnScroll();
-        
-                // Add event listener for scroll events
+
                 window.addEventListener("scroll", fadeInOnScroll);
             });
         
             function showMoreInfo(infoBoxId) {
                 var infoBox = document.getElementById("infoBox" + infoBoxId);
-                infoBox.style.display = "block"; // Show the info box
+                infoBox.style.display = "block"; 
             }
         
             function hideInfo(infoBoxId) {
                 var infoBox = document.getElementById("infoBox" + infoBoxId);
-                infoBox.style.display = "none"; // Hide the info box
+                infoBox.style.display = "none";
             }
         </script>
         

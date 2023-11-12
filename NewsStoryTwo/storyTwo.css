@@ -108,7 +108,7 @@ header h1{
 .textContainer{
     /* background-color: #afef56; */
     margin: 50vh auto;
-    padding: 5rem;
+    padding: 10rem;
     width: 70%;
     /* border: 4px solid grey;
     box-shadow: 1px 1px 8px 5px gray; */
@@ -168,4 +168,35 @@ header h1{
     margin-bottom: 1rem;
     font-size: 1.3rem;
     color: #555; 
+  }
+
+  @media screen and (max-width:500px) {
+
+    #introduction {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #intro p{
+        font-size: 1.4rem;
+    }
+
+    .textContainer{
+        padding: 1rem;
+    }
+
+    .textContainer p{
+        font-size:1.5rem ;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    /* #mychart{
+
+        height: auto;
+        width: auto;
+    } */
+    
   }
