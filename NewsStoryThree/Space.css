@@ -327,3 +327,17 @@ button:hover {
         left: 0%;
     }
 }
+
+.spaceMap{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    /* height: 100vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-position: cover cover; */
+}
