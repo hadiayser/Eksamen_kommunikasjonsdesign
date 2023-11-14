@@ -18,7 +18,7 @@ body {
 
 .intro{
 
-background: #909ebd75;
+background: #363b4692;
 color: #ffffff;
 }
 .intro h2{
@@ -61,6 +61,7 @@ color: #ffffff;
     /* background:url('https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc.jpg'); */
     /* background-size: cover; */
     color: #ffffff;
+    margin: 20px;
     
      /* position: relative; */
 }
@@ -97,7 +98,8 @@ color: #ffffff;
     width: 100vw; 
     max-width: 600px; 
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: #040404;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
 
@@ -123,7 +125,8 @@ color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #cfcbd592;
+    background: #363b4692;
+    color: #ffffff;
     width: auto ;
 }
 
@@ -278,7 +281,7 @@ button:hover {
   }
   
   .sources .textContainer {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
   }
   
@@ -298,14 +301,28 @@ button:hover {
     color: #555; 
   }
 
+  
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+
+
+    .intro{
+        font-size: 60%;
+        padding: 20px;
+    }
    
     .timeline::after {
         left: 31px;
     }
 
+
+    .section{
+        font-size: 70%;
+    }
    
+    .timelineintro h2{
+        font-size: 60%;
+    }
     .container {
         width: 100%;
         padding-left: 70px;
