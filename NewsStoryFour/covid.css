@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #474e5d;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    background: url('https://www.fhi.no//globalassets/dokumenterfiler/tema/koronavirussykdom/2871--cdc-alissa-eckert-ms_modifisert.png?preset=mainbodywidth&maxwidth=970&width=970');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.start{
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     position: relative;
+}
+
+.intro{
+
+    background-color: #000000b3;
+    color: #ffffff;
+    padding: 10rem;
+    }
+    .intro h2{
+        color: #f54242b3;
+        font-size: 4em;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .intro a{
+        font-size: 1.5em;
+    }
+
+    .section{
+        min-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background-color: #000000b3;
+        color: #ffffff;
+        /* margin: 20px; */
+        
+         /* position: relative; */
+    }
+         .section h2{
+            
+            font-size:2rem ;
+            color: rgb(244, 62, 62);
+
+         }
+    
+
+    .content{
+        max-width: 800px;
+        padding: 40px;
+        text-align: center;
+    }
+    
+    .content p{
+        font-size: 2em;
+        background: #0c0c0c5c;
+        color: #f4f0f0;
+    }
