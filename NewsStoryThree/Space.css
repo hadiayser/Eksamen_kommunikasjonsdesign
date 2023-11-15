@@ -142,6 +142,7 @@ color: #ffffff;
     content: '';
     position: absolute;
     width: 6px;
+    height: 340vh;
     background-color: rgba(252, 252, 252, 0.44);
     top: 0;
     bottom: 0;
@@ -234,8 +235,8 @@ color: #ffffff;
 }
 
 button {
-    background-image: linear-gradient(to right, #3c4949 0%, #484465 51%, #5c3e62 100%);
-    flex: 1 1 auto;
+  background-image: linear-gradient(to right, #3c4949 0%, #484465 51%, #5c3e62 100%);
+  flex: 1 1 auto;
   margin: 5px;
   padding: 10px;
   text-align: center;
@@ -279,6 +280,7 @@ button:hover {
     background-color: #f0f0f0; 
     /* padding: 5rem 0; */
     width: 100%;
+    bottom: 0;
   }
   
   .sources .textContainer {
@@ -349,10 +351,11 @@ button:hover {
 
 .containerImg {
     height: 100%;
-  }
- .bg {
+}
+.bg {
+     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
