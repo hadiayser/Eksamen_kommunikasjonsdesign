@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Space.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Space.css" />
     <title>Your Page Title</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="section1">
-        <div class="intro">
-            <h2>Space endevours</h2>
-            <a>
-                From Pioneering Explorations to Interstellar Horizons – The Evolution of Space Missions
-            </a>
-        </div>
-        <a href="#intro" id="btn">Explore</a>
+      <div class="intro">
+        <h2>Space endevours</h2>
+        <a>
+          From Pioneering Explorations to Interstellar Horizons – The Evolution
+          of Space Missions
+        </a>
+      </div>
+      <a href="#intro" id="btn">Explore</a>
     </section>
     <section class="section">
-        <div class="content1" id="intro">
-            <h2></h2>
-            <p class="fade-in" >
-                "In the vast tapestry of cosmic exploration,
-                 humanity has embarked on an awe-inspiring journey, 
-                 reaching beyond the boundaries of our home planet to explore the mysteries of the cosmos.
-                  'Cosmic Odyssey: A Journey Through Time and Space' is a riveting chronicle that traces 
-                  the trajectory of space endeavors, from the humble beginnings of pioneering missions to
-                   the cutting-edge interstellar horizons of today. Join us as we unveil the remarkable
-                    timeline of space exploration, showcasing the triumphs, challenges, and groundbreaking
-                     moments that have shaped our understanding of the universe."
-            </p>
-        </div>
+      <div class="content1" id="intro">
+        <h2></h2>
+        <p class="fade-in">
+          "In the vast tapestry of cosmic exploration, humanity has embarked on
+          an awe-inspiring journey, reaching beyond the boundaries of our home
+          planet to explore the mysteries of the cosmos. 'Cosmic Odyssey: A
+          Journey Through Time and Space' is a riveting chronicle that traces
+          the trajectory of space endeavors, from the humble beginnings of
+          pioneering missions to the cutting-edge interstellar horizons of
+          today. Join us as we unveil the remarkable timeline of space
+          exploration, showcasing the triumphs, challenges, and groundbreaking
+          moments that have shaped our understanding of the universe."
+        </p>
+      </div>
     </section>
-    <section class="section">
+    <!-- <section class="section">
         <div class="content1">
-            <!--Source for timeline code:  https://www.w3schools.com/howto/howto_css_timeline.asp -->
+            Source for timeline code:  https://www.w3schools.com/howto/howto_css_timeline.asp
             <h2>Section two</h2>
             <p class="fade-in"  >
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -274,70 +276,72 @@
                 </div>
             </div>
             
-        </div>
-        <section>
-        <div class="spaceMap">
-            <img src="../NewsStoryThree/SpaceMap.png" alt="">
-        </div>
+        </div> -->
+    <div class="containerImg">
+      <div class="bg image1"></div>
+      <div class="bg image2"></div>
+      <div class="bg image3"></div>
+      <div class="bg image4"></div>
+      <div class="bg image5"></div>
+      <div class="bg image6"></div>
+    </div>
+    <!--kilde: https://www.studytonight.com/code/playground/web/?id=VPaIkx -->
+    <section class="sources">
+      <div class="textContainer">
+        <h2>Sources</h2>
+        <ul>
+          <li>
+            Source 1: Description of the first source and where it was obtained.
+          </li>
+          <li>
+            Source 2: Description of the second source and where it was
+            obtained.
+          </li>
+          <!-- Add more sources as needed -->
+        </ul>
+      </div>
     </section>
-        <section class="sources">
-            <div class="textContainer">
-              <h2>Sources</h2>
-              <ul>
-                <li>
-                  Source 1: Description of the first source and where it was obtained.
-                </li>
-                <li>
-                  Source 2: Description of the second source and where it was obtained.
-                </li>
-                <!-- Add more sources as needed -->
-              </ul>
-            </div>
-          </section>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                var fadeInElements = document.querySelectorAll(".fade-in");
-                var timelineElements = document.querySelectorAll(".content");
-        
-                function fadeInOnScroll() {
-                    fadeInElements.forEach(function (element) {
-                        var elementPosition = element.getBoundingClientRect().top;
-                        var screenHeight = window.innerHeight;
-        
-                        if (elementPosition < screenHeight) {
-                            element.classList.add("visible");
-                        } else {
-                            element.classList.remove("visible");
-                        }
-                    });
-        
-                    timelineElements.forEach(function (element) {
-                        var elementPosition = element.getBoundingClientRect().top;
-                        var screenHeight = window.innerHeight;
-        
-                        if (elementPosition < screenHeight) {
-                            element.classList.add("visible");
-                        }
-                    });
-                }
-        
-                fadeInOnScroll();
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var fadeInElements = document.querySelectorAll(".fade-in");
+        var timelineElements = document.querySelectorAll(".content");
 
-                window.addEventListener("scroll", fadeInOnScroll);
-            });
-        
-            function showMoreInfo(infoBoxId) {
-                var infoBox = document.getElementById("infoBox" + infoBoxId);
-                infoBox.style.display = "block"; 
+        function fadeInOnScroll() {
+          fadeInElements.forEach(function (element) {
+            var elementPosition = element.getBoundingClientRect().top;
+            var screenHeight = window.innerHeight;
+
+            if (elementPosition < screenHeight) {
+              element.classList.add("visible");
+            } else {
+              element.classList.remove("visible");
             }
-        
-            function hideInfo(infoBoxId) {
-                var infoBox = document.getElementById("infoBox" + infoBoxId);
-                infoBox.style.display = "none";
+          });
+
+          timelineElements.forEach(function (element) {
+            var elementPosition = element.getBoundingClientRect().top;
+            var screenHeight = window.innerHeight;
+
+            if (elementPosition < screenHeight) {
+              element.classList.add("visible");
             }
-        </script>
-        
-</body>
+          });
+        }
+
+        fadeInOnScroll();
+
+        window.addEventListener("scroll", fadeInOnScroll);
+      });
+
+      function showMoreInfo(infoBoxId) {
+        var infoBox = document.getElementById("infoBox" + infoBoxId);
+        infoBox.style.display = "block";
+      }
+
+      function hideInfo(infoBoxId) {
+        var infoBox = document.getElementById("infoBox" + infoBoxId);
+        infoBox.style.display = "none";
+      }
+    </script>
+  </body>
 </html>
-
-
