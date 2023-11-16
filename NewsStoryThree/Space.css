@@ -320,22 +320,22 @@ button:hover {
  }
 
   .image1 {
-    background-image: url("../NewsStoryThree/blankMap.png");
+    background-image: url("./images/blankMap.png");
   }
   .image2 {
-    background-image: url("../NewsStoryThree/venera7.png");
+    background-image: url("./images/venera7.png");
   }
   .image3 {
-    background-image: url("../NewsStoryThree/1977Voyager.png");
+    background-image: url("./images/1977Voyager.png");
   }
   .image4 {
-    background-image: url("../NewsStoryThree/1996Mars.png");
+    background-image: url("./images/1996Mars.png");
   }
   .image5 {
-    background-image: url("../NewsStoryThree/2020sMars.png");
+    background-image: url("./images/2020sMars.png");
   }
   .image6 {
-    background-image: url("../NewsStoryThree/SpaceMap.png");
+    background-image: url("./images/SpaceMap.png");
   }
   /* Kilde:https://www.studytonight.com/code/playground/web/?id=VPaIkx */
 
