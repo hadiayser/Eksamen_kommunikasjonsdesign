@@ -133,7 +133,7 @@ color: #ffffff;
 
 .timeline {
     position: relative;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     /* background-color: #ecebec25; */
 }
@@ -303,6 +303,41 @@ button:hover {
     font-size: 1.3rem;
     color: #555; 
   }
+  .containerImg {
+    height: 100%;
+}
+.bg {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+  .image1 {
+    background-image: url("../NewsStoryThree/blankMap.png");
+  }
+  .image2 {
+    background-image: url("../NewsStoryThree/venera7.png");
+  }
+  .image3 {
+    background-image: url("../NewsStoryThree/1977Voyager.png");
+  }
+  .image4 {
+    background-image: url("../NewsStoryThree/1996Mars.png");
+  }
+  .image5 {
+    background-image: url("../NewsStoryThree/2020sMars.png");
+  }
+  .image6 {
+    background-image: url("../NewsStoryThree/SpaceMap.png");
+  }
+  /* Kilde:https://www.studytonight.com/code/playground/web/?id=VPaIkx */
 
   
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -347,41 +382,11 @@ button:hover {
         left: 0%;
     }
 }
-
-
-.containerImg {
-    height: 100%;
+@media screen and (min-width: 600px) {
+    .bg {
+        height: 100vh;
+        width: 100vw;
 }
-.bg {
-     position: relative;
-    height: 100vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: center center;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
+}
 
-  .image1 {
-    background-image: url("../NewsStoryThree/blankMap.png");
-  }
-  .image2 {
-    background-image: url("../NewsStoryThree/venera7.png");
-  }
-  .image3 {
-    background-image: url("../NewsStoryThree/1977Voyager.png");
-  }
-  .image4 {
-    background-image: url("../NewsStoryThree/1996Mars.png");
-  }
-  .image5 {
-    background-image: url("../NewsStoryThree/2020sMars.png");
-  }
-  .image6 {
-    background-image: url("../NewsStoryThree/SpaceMap.png");
-  }
-  /* Kilde:https://www.studytonight.com/code/playground/web/?id=VPaIkx */
+
