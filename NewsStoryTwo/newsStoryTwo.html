@@ -148,43 +148,38 @@
     </section>
     
     <script>
-      const ctx = document.getElementById("myChart").getContext("2d");
+     const ctx = document.getElementById("myChart").getContext("2d");
 
-      const setValues = [0, 2, 4, 6, 8, 8, 10, 12, 14];
-
-      const data = {
-        labels: ["1995", "1999", "2003", "2007", "2011", "2015", "2019"],
-        datasets: [
-          {
-            label: "y-axix values",
-            data: setValues,
-            borderColor: "transparent",
-            fill: false,
-          },
-          {
-            label: "Noen gang",
-            data: [5.9, 12.3, 8.9, 6.4, 5.3, 7.0, 8.7],
-            borderColor: "blue",
-            fill: false,
-          },
-          {
-            label: "Siste 12 mnd",
-            data: [5.9, 9.1, 6.2, 4.9, 4.7, 5.6, 7.1],
-            borderColor: "green",
-            fill: false,
-          },
-          {
-            label: "Siste 30 dager",
-            data: [2.7, 4.1, 2.7, 2.9, 2.0, 2.5, 4.0],
-            borderColor: "red",
-            fill: false,
-          },
-        ],
-      };
-      new Chart(ctx, {
-        type: "line",
-        data: data,
-      });
+const data = {
+  labels: ["1995", "1999", "2003", "2007", "2011", "2015", "2019"],
+  datasets: [
+    {
+      label: "Noen gang",
+      data: [5.9, 12.3, 8.9, 6.4, 5.3, 7.0, 8.7],
+      backgroundColor: "crimson",
+      borderColor: "black",
+      borderWidth: 2,
+    },
+    {
+      label: "Siste 12 mnd",
+      data: [5.9, 9.1, 6.2, 4.9, 4.7, 5.6, 7.1],
+      backgroundColor: "teal",
+      borderColor: "black",
+      borderWidth: 2,
+    },
+    {
+      label: "Siste 30 dager",
+      data: [2.7, 4.1, 2.7, 2.9, 2.0, 2.5, 4.0],
+      backgroundColor: "forestgreen",
+      borderColor: "black",
+      borderWidth: 2,
+    },
+  ],
+};
+new Chart(ctx, {
+  type: "bar",
+  data: data,
+});
     </script>
   </body>
 </html>
