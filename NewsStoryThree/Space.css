@@ -320,22 +320,22 @@ button:hover {
  }
 
   .image1 {
-    background-image: url("./images/blankMap.png");
+    background-image: url("./imagesMap/BlankMapFinal.png");
   }
   .image2 {
-    background-image: url("./images/venera7.png");
+    background-image: url("./imagesMap/Venera7Final.png");
   }
   .image3 {
-    background-image: url("./images/1977Voyager.png");
+    background-image: url("./imagesMap/1977Final.png");
   }
   .image4 {
-    background-image: url("./images/1996Mars.png");
+    background-image: url("./imagesMap/1996MarsFinal.png");
   }
   .image5 {
-    background-image: url("./images/2020sMars.png");
+    background-image: url("./imagesMap/2020sMarsFinal.png");
   }
   .image6 {
-    background-image: url("./images/SpaceMap.png");
+    background-image: url("./imagesMap/SpaceMapFinal.png");
   }
   /* Kilde:https://www.studytonight.com/code/playground/web/?id=VPaIkx */
 
