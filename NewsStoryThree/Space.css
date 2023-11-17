@@ -52,20 +52,59 @@ color: #ffffff;
      position: relative;
 }
 
-.section{
-    min-width: 100%;
+
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px; 
+    margin: 50vh auto;
+    padding: 5rem;
+}
+
+.section h2 {
+    grid-column: span 2; 
+}
+
+.section img {
+    width: 100%;
     height: auto;
+    
+}
+
+.section p {
+    grid-column: 1;
+}
+
+.image-container {
+    grid-column: 2; /* Add this line to specify the column for the container */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    /* background:url('https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc.jpg'); */
-    /* background-size: cover; */
-    color: #ffffff;
-    margin: 20px;
-    
-     /* position: relative; */
 }
+
+/* .content1 div {
+    flex-grow: 1;
+    margin-right: 20px; /* Add some margin between text and image 
+} */
+
+/* .content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    padding: 40px;
+    text-align: center;
+    background-size: cover;
+} */
+
+.content1 p {
+    font-size: 2em;
+    background: #0c0c0c5c;
+    color: #f4f0f0;
+}
+
+
 .fade-in {
     opacity: 0;
     transition: opacity 2s ease-in-out;
@@ -74,17 +113,7 @@ color: #ffffff;
 .fade-in.visible {
     opacity: 1;
 }
- .content1{
-    max-width: 800px;
-    padding: 40px;
-    text-align: center;
-}
 
-.content1 p{
-    font-size: 2em;
-    background: #0c0c0c5c;
-    color: #f4f0f0;
-}
 
 
 .info-box {
@@ -221,7 +250,7 @@ color: #ffffff;
     position: relative;
     border-radius: 6px;
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateY(-50%);
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 
     padding: 20px 30px;
@@ -231,8 +260,9 @@ color: #ffffff;
 
 .content.visible {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
+
 
 button {
   background-image: linear-gradient(to right, #3c4949 0%, #484465 51%, #5c3e62 100%);
