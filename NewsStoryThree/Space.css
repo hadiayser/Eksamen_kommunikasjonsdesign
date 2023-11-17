@@ -19,7 +19,7 @@ body {
 
 .intro{
 
-background: #363b4692;
+background: #909ebd75;
 color: #ffffff;
 }
 .intro h2{
@@ -142,7 +142,7 @@ color: #ffffff;
     content: '';
     position: absolute;
     width: 6px;
-    height: 340vh;
+    height: 318vh;
     background-color: rgba(252, 252, 252, 0.44);
     top: 0;
     bottom: 0;
