@@ -61,22 +61,41 @@
     <!-- </div> -->
       </div>
       <div class="textContainer">
-        <h2>chart</h2>
+        <h2 style="font-size: 3rem;">chart</h2>
+        <br>
+        <p style="font-size: 2rem;">        This visual representation underscores the magnitude of the increase and provides a clear snapshot of how much cannabis is being consumed by the surveyed youths.
+        </p>
         <canvas id="myChart"></canvas>
         <a>Nearly 50% increase in usage in 1999 </a> <br>
         <a>A steady decrease in usage percentage from 1999-2011.</a> <br>
         <a>40% increase from 2011-2019. </a>
+        <br>
+        <br>
+        <br>
+        <h2 style="font-size: 3rem;">Chart Analysis: Unveiling Trends in Cannabis Usage</h2>
+        <p style="font-size: 2rem;">
+          <!-- This visual representation underscores the magnitude of the increase and provides a clear snapshot of how much cannabis is being consumed by the surveyed youths. -->
+        <br>
+        <br>
+          The chart above illustrates key trends in cannabis usage among Norwegian youth, shedding light on crucial turning points over the years.
+          <br>
+          <br>
+          The chart underlines a significant spike in cannabis usage, nearly reaching a 50% increase in 1999. This period marked a notable shift in the relationship between Norwegian youth and cannabis.
+          <br>
+          <br>
+          Contrary to the surge in 1999, there was a consistent decline in usage percentages from 1999 to 2011. Despite stringent regulations and presumed preventive measures, the data indicates a steady decrease in cannabis consumption during this period.
+          <br>
+          <br>
+          However, the trend took an unexpected turn from 2011 to 2019, witnessing a 40% increase in cannabis usage. This shift poses questions about the effectiveness of existing preventive measures and the factors contributing to this resurgence.
+        </p>
       </div>
+      
+   
       <section class="textContainer norwaycannabis">
-        <div class="norwaycannabistext">
-        <h2>Chart</h2>
+      <div class="norwaycannabistext">
+        <h2>Interview with a Teen: Understanding the Impact</h2>
         <p>
-          This visual representation underscores the magnitude of the increase and provides a clear snapshot of how much cannabis is being consumed by the surveyed youths.
-           It shows how many have used cannabis sometimes, within the last twelve months and the last 30 days through said survey.
-            The chart holds a lot of interesting points that may give us some insight as to what kind of relationship the Norwegian youth of the late 1990s had with cannabis.
-             The most significant increase in usage of cannabis came in 1999, where there was almost a 50% increase in usage across the board among the Norwegian youth.
-              Although we assume this was taken action against as the most notable aspect of the chart is the steady decrease in usage percentage from 1999-2011. 
-              Despite these drastic changes and strict laws, the use of cannabis is yet again on the rise as there has been a 40% increase from 2011-2019.
+          To provide a firsthand perspective, we spoke with [Teen's Name], a 17-year-old student from [City/Town]. They shared insights into the factors contributing to the rise in cannabis use among Norwegian teens.
         </p>
       </div>
       <div class="norwaycannabistext">
@@ -154,21 +173,21 @@ const data = {
   labels: ["1995", "1999", "2003", "2007", "2011", "2015", "2019"],
   datasets: [
     {
-      label: "Noen gang",
+      label: "Sometimes",
       data: [5.9, 12.3, 8.9, 6.4, 5.3, 7.0, 8.7],
       backgroundColor: "crimson",
       borderColor: "black",
       borderWidth: 2,
     },
     {
-      label: "Siste 12 mnd",
+      label: "Last 12 mnd",
       data: [5.9, 9.1, 6.2, 4.9, 4.7, 5.6, 7.1],
       backgroundColor: "teal",
       borderColor: "black",
       borderWidth: 2,
     },
     {
-      label: "Siste 30 dager",
+      label: "Last 30 dager",
       data: [2.7, 4.1, 2.7, 2.9, 2.0, 2.5, 4.0],
       backgroundColor: "forestgreen",
       borderColor: "black",
