@@ -132,6 +132,17 @@ color: #ffffff;
     color: #f4f0f0;
 }
 
+.parathree {
+    width: 50%;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 1.7rem;
+    background: #0c0c0c5c;
+    color: #f4f0f0;
+    
+    
+}
+
 .imgtwo {
     grid-row: 2;
     grid-column: 1;
