@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Rasisme.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,13 +13,13 @@
         <!-- <img src="benjamin.jpg" alt="benjamin" class="benjamin"> -->
         <img src="imrs-removebg-preview.png" alt="benjamin" class="benjamin">
         <div class="intro">
-            <h2>Rasism In Norway</h2>
+            <h2>Rasism Unmasked: Norway</h2>
             <a>
                blalalalala rasist stuff norway, niggas rasist and shit
             </a>
         </div>
     </section>
-    <section class="section">
+    <section class="section2">
         <div class="content">
             <h2>I. Introduction</h2>
             <p>
@@ -217,11 +218,12 @@
                     publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
             </p>
             <h2>MAP</h2>
-            <div>
-                <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?tab=map&zoomToSelection=true&time=earliest&region=Europe&facet=none&uniformYAxis=0&country=~OWID_EUR&pickerSort=desc&pickerMetric=total_deaths_per_million&Metric=Confirmed+deaths&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe>
-            </div>
         </div>
     </section>
+    <div>
+        <!-- <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?tab=map&zoomToSelection=true&time=earliest&region=Europe&facet=none&uniformYAxis=0&country=~OWID_EUR&pickerSort=desc&pickerMetric=total_deaths_per_million&Metric=Confirmed+deaths&Interval=7-day+rolling+average&Relative+to+Population=true&Color+by+test+positivity=false&hideControls=true" loading="lazy" style="width: 100%; height: 600px; border: 0px none;"></iframe> -->
+        <canvas id="myChart"></canvas>
+    </div>
     <section class="section">
         <div class="content">
             <h2>V. Impact on Healthcare Systems</h2>
@@ -330,7 +332,45 @@
     </section>
     
     <script>
+
+        // chart 
+
+const ctx = document.getElementById("myChart").getContext("2d");
+
+const data = {
+  labels: ["Has experienced rasism ethnically", "Has experienced rasism based on skincolor", "Has experienced rasism based on religion",],
+  datasets: [
+    {
+      label: "Immigrants",
+      data: [24.2,12.2,7.1,],
+      backgroundColor: "#E07A5F",
+      borderColor: "black",
+      borderWidth: 2,
+    },
+    {
+      label: "Norwigian born with immigrant parents",
+      data: [31.3, 24.4, 15.6,],
+      backgroundColor: "white",
+      borderColor: "black",
+      borderWidth: 2,
+    },
+    {
+      label: "Other population",
+    //   data: [1,, 1 ,1.3,],
+      data: [1, 1, 1.3,],
+      backgroundColor: "#5fc5e0",
+      borderColor: "black",
+      borderWidth: 2,
+    },
+  ],
+};
+new Chart(ctx, {
+  type: "bar",
+  data: data,
+});
        
+
+// 
     const showInfoButtons = document.querySelectorAll('.show-info-btn');
     const infoBoxes = document.querySelectorAll('.info-box');
 
