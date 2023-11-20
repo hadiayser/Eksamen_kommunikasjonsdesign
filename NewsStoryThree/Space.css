@@ -194,6 +194,7 @@ color: #ffffff;
     background: #363b4692;
     color: #ffffff;
     width: auto ;
+    
 }
 
 .timeline {
@@ -404,6 +405,19 @@ button:hover {
     background-image: url("./imagesMap/SpaceMapFinal.png");
   }
   /* Kilde:https://www.studytonight.com/code/playground/web/?id=VPaIkx */
+
+  .spaceship {
+    width: 400px;
+    height: 400px;
+    background-image: url('imagesMap/pngtree-space-shuttle-png-image_2437816-removebg-preview.png');
+    /* source img :https://pngtree.com/so/spaceship */
+    background-size: cover;
+    position: fixed;
+    bottom: 20%;
+    left: -100px; /* Initial position off-screen */
+    transition: transform 0.001s ease-in-out;
+    opacity: 0;
+}
 
   
 /* Media queries - Responsive timeline on screens less than 600px wide */

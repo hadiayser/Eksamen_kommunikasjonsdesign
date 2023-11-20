@@ -86,6 +86,8 @@
                 </div>
             </div>
         </div>
+        <div class="spaceship" id="spaceship"></div>
+
         <div class="container right">
             <div class="content fade-in">
                 <h2>1958</h2>
@@ -316,6 +318,8 @@
       </div>
     </section>
     <script>
+
+        // fading mechanic
       document.addEventListener("DOMContentLoaded", function () {
         var fadeInElements = document.querySelectorAll(".fade-in");
         var timelineElements = document.querySelectorAll(".content");
@@ -356,6 +360,28 @@
         var infoBox = document.getElementById("infoBox" + infoBoxId);
         infoBox.style.display = "none";
       }
+
+    // spaceship 
+
+      document.addEventListener("scroll", function () {
+    const timelineIntro = document.querySelector(".timelineintro");
+    const spaceship = document.getElementById("spaceship");
+
+    
+    const scrollPercentage = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+
+    
+    spaceship.style.transform = `translateX(${scrollPercentage}vw)`;
+
+  
+    if (scrollPercentage >= 20) { 
+        spaceship.style.opacity = 1;
+    } else {
+        spaceship.style.opacity = 0;
+    }
+});
+
+
     </script>
   </body>
 </html>
