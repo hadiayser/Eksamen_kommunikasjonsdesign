@@ -7,7 +7,10 @@
   }
   
   body {
-    background-color: #1d1b1b;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     font-family: Helvetica, sans-serif;
     margin: 0;
     /* background: url('https://www.hlsenteret.no/om/aktuelt/nyheter/2021/newframe.jpg'); */
@@ -41,7 +44,7 @@
   
   .intro h2 {
     color: #E07A5F;
-    font-size: 8em;
+    font-size: 7em;
     display: flex;
     justify-content: center;
   }
@@ -57,7 +60,8 @@
     justify-content: center;
     align-items: center; */
     height: auto;
-    background-color: #252424;
+    /* background-color: #252424; */
+    
     color: #ffffff;
   }
   .section2 {
@@ -67,7 +71,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
-    background-color: #252424;
+    /* background-color: #252424; */
     color: #ffffff;
   }
   
@@ -99,6 +103,13 @@
     box-sizing: border-box;
   }
   
+  /* #myChart{
+    display: block;
+    box-sizing: border-box;
+    width: 1045px;
+    height: 522px;
+  } */
+
   .timeline {
     overflow-x: scroll;
     /* white-space: nowrap; */
@@ -164,7 +175,7 @@
   
   .timelineContent {
     padding: 40px;
-    background-color: rgba(255, 252, 252, 0.708);
+    background-color: #c1c7d1;
     position: relative;
     border-radius: 6px;
     white-space: normal;
