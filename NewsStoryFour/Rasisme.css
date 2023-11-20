@@ -3,13 +3,14 @@
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   body {
-    background-color: #474e5d;
+    background-color: #1d1b1b;
     font-family: Helvetica, sans-serif;
     margin: 0;
-    background: url('https://www.fhi.no//globalassets/dokumenterfiler/tema/koronavirussykdom/2871--cdc-alissa-eckert-ms_modifisert.png?preset=mainbodywidth&maxwidth=970&width=970');
+    /* background: url('https://www.hlsenteret.no/om/aktuelt/nyheter/2021/newframe.jpg'); */
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,16 +26,22 @@
     height: 100vh;
     position: relative;
   }
+
+  .benjamin{
+    width: 950px;
+    height: 100vh;
+    filter: grayscale();
+  }
   
   .intro {
-    background-color: #0000008b;
+    /* background-color: #201f1f8b; */
     color: #ffffff;
-    padding: 10rem;
+    padding: 1rem;
   }
   
   .intro h2 {
-    color: #f54242b3;
-    font-size: 4em;
+    color: #E07A5F;
+    font-size: 8em;
     display: flex;
     justify-content: center;
   }
@@ -46,29 +53,45 @@
   .section {
     min-width: 100%;
     height: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: auto;
+    background-color: #252424;
+    color: #ffffff;
+  }
+  .section2 {
+    min-width: 100%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    background-color: #0000008b;
+    background-color: #252424;
     color: #ffffff;
   }
   
   .section h2 {
     font-size: 2rem;
-    color: rgb(244, 62, 62);
+    color: #E07A5F;
+    text-align: center;
+  }
+  .section2 h2 {
+    font-size: 2rem;
+    color: #E07A5F;
+    text-align: center;
   }
   
   .content {
     max-width: 800px;
     padding: 40px;
-    text-align: center;
+    /* text-align: center; */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .content p {
-    font-size: 2em;
-    background: #0c0c0c5c;
+    font-size: 1.5em;
+    /* background: #0c0c0c5c; */
     color: #f4f0f0;
   }
   
