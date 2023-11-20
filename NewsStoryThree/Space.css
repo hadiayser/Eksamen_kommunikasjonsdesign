@@ -431,6 +431,15 @@ button:hover {
     transition: transform 0.001s ease-in-out;
     opacity: 0;
 }
+.paraQuote p{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    max-width: 50rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family:'Times New Roman', Times, serif;
+}
 
   
 /* Media queries - Responsive timeline on screens less than 600px wide */
