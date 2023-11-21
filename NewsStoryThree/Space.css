@@ -8,7 +8,6 @@
 
 
 body {
-    background-color: #474e5d;
     font-family: Helvetica, sans-serif;
     margin: 0;
     background: url('https://www.thoughtco.com/thmb/Rz_mQ5irKGAk8HFc6g5T5PxA9rQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/arches-national-park-astronomy-cosmos-33688-d67c5551c2324cb696315faa478aa71d.jpg');
@@ -215,7 +214,7 @@ color: #ffffff;
     content: '';
     position: absolute;
     width: 6px;
-    height: 318vh;
+    height: 176vh;
     background-color: rgba(252, 252, 252, 0.44);
     top: 0;
     bottom: 0;
