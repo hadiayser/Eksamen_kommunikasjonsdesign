@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
   }
   
   body {
@@ -44,7 +45,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   
   .intro h2 {
     color: #E07A5F;
-    font-size: 7em;
+    font-size: 6.5em;
     display: flex;
     justify-content: center;
   }
@@ -85,7 +86,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   }
   
   .section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #E07A5F;
     text-align: center;
   }
@@ -144,6 +145,7 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     transition:all 0.2s;
     background-size: 200% auto;
   }
+  
   .image div:nth-child(1){
     background-position: left top;
   }
@@ -162,6 +164,8 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   .image:hover {
     border:0 solid #000000;
   }
+
+  
   
   /* #myChart{
     display: block;
