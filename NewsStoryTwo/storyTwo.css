@@ -32,6 +32,7 @@ https://scitechdaily.com/global-temperature-reconstruction-over-last-24000-years
 
 header p{
     font-size: 2rem;
+    background-color: #dceaf0;
 }
 header h1{
     color: #000;
@@ -54,6 +55,9 @@ header h1{
     margin: 50vh auto;
     padding: 5rem;
 }
+#intro p{
+    font-size: 2rem;
+}
 
 #introduction {
     display: grid;
@@ -65,6 +69,7 @@ header h1{
 
 #introduction h2 {
     grid-column: span 2; 
+    font-size: 2.4rem;
 }
 
 #introduction img {
@@ -75,6 +80,7 @@ header h1{
 
 #introduction p {
     grid-column: 1;
+    font-size: 1.8rem;
 }
 
 .norwaycannabis{
@@ -85,7 +91,7 @@ header h1{
     width: 90%;
     margin: 2rem auto;
     padding: 5rem 0 5rem 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -101,7 +107,9 @@ header h1{
     text-shadow: 2px 2px 4px rgba(173, 42, 42, 0.5);
     filter: none;
     padding: 1rem;
-    margin: 60vh auto;
+    margin: 50vh auto;
+    margin-bottom: 10vh;
+    margin-top: 40vh;
     /* margin-bottom: 20vh;
     margin-top: 20vh; */
 }
@@ -117,6 +125,15 @@ header h1{
     color: #040404;
 }
 
+.textContainer h2{
+    font-size: 3rem;
+
+}
+
+.textContainer p{
+    font-size: 2rem;
+    
+}
 
 #img{
     /* background-image: url('https://images.ctfassets.net/4f3rgqwzdznj/471UIumx1PDmewqVwjZOyo/0b32f07fac0e110ad1987d6834713754/cannabis_leaf_and_pills_1199045166.jpg'); */
@@ -195,9 +212,14 @@ header h1{
 
     /* #mychart{
 
-        height: auto;
-        width: auto;
+        height: 500px;
+        width: 200px;
     } */
+
+    #chartContainer {
+        width: auto; /* Set your desired width */
+        height: auto; /* Set your desired height */
+      }
     
   }
 

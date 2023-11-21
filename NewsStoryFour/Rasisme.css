@@ -52,6 +52,10 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   .intro a {
     font-size: 1.5em;
   }
+
+  .introo{
+    padding-top: 300px;
+  }
   
   .section {
     min-width: 100%;
@@ -64,8 +68,13 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     
     color: #ffffff;
   }
+
+  /* .section img{
+    margin-top: 20px;
+  } */
   .section2 {
     min-width: 100%;
+    /* min-height: 100vh; */
     height: auto;
     display: flex;
     justify-content: center;
@@ -88,7 +97,14 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
   
   .content {
     max-width: 800px;
-    padding: 40px;
+    padding: 70px;
+    /* text-align: center; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .content2{
+    min-width: 800px;
+    padding: 70px;
     /* text-align: center; */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
@@ -98,9 +114,53 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     /* background: #0c0c0c5c; */
     color: #f4f0f0;
   }
+  .content2 p {
+    font-size: 1.5em;
+    /* background: #0c0c0c5c; */
+    color: #f4f0f0;
+  }
   
   * {
     box-sizing: border-box;
+  }
+
+/* image */
+
+  .image{
+    margin:90px auto;
+    margin-right: 30px;
+    float: right;
+    width: 580px;
+    height: 460px;
+    border:5px solid #000000;
+    
+  }
+  .image div{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background-image: url("https://thebattleground.eu/wp-content/uploads/2020/12/Not-Just-in-the-USA-Norway-Also.-scaled.jpg");
+    border:5px solid #040404;
+    transition:all 0.2s;
+    background-size: 200% auto;
+  }
+  .image div:nth-child(1){
+    background-position: left top;
+  }
+  .image div:nth-child(2){
+    height: 100%;
+    background-position: right;
+    float: right;
+    background-size: 200% 100%;
+  }
+  .image div:nth-child(3){
+    background-position: left bottom;
+  }
+  .image:hover div{
+    border:0 solid #000000;
+  }
+  .image:hover {
+    border:0 solid #000000;
   }
   
   /* #myChart{
