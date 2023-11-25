@@ -43,8 +43,6 @@ header h1{
 .container{
     width: 100vw;
     min-height: 50vh;
-    /* align-items: center;
-    margin-top: 50px; */
     overflow: hidden;
 
 }
@@ -84,8 +82,6 @@ header h1{
     font-size: 1.5rem;
     line-height: 1.5;
 }
-
-
 
 .norwaycannabis{
     background-image: url('https://i0.wp.com/p3.no/wp-content/uploads/2014/09/weed.gif?w=1920&ssl=1');
@@ -135,7 +131,6 @@ font-size: 1rem;
 }
 
 #img{
-    /* background-image: url('https://images.ctfassets.net/4f3rgqwzdznj/471UIumx1PDmewqVwjZOyo/0b32f07fac0e110ad1987d6834713754/cannabis_leaf_and_pills_1199045166.jpg'); */
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     background-attachment: fixed;
     background-size: cover;
@@ -209,15 +204,9 @@ font-size: 1rem;
         font-size: 2rem;
     }
 
-    /* #mychart{
-
-        height: 500px;
-        width: 200px;
-    } */
-
     #chartContainer {
-        width: auto; /* Set your desired width */
-        height: auto; /* Set your desired height */
+        width: auto; 
+        height: auto; 
       }
     
   }
