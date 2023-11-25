@@ -241,6 +241,10 @@ color: #ffffff;
     z-index: 1;
 }
 
+.color{
+    color: #fff;
+    text-decoration: none;
+}
 
 .container {
     padding: 10px 40px;
