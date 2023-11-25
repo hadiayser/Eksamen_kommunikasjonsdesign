@@ -54,7 +54,7 @@ header h1{
     padding: 5rem;
 }
 #intro p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -126,7 +126,7 @@ font-size: 1rem;
 }
 
 .textContainer p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     
 }
 
@@ -151,7 +151,7 @@ font-size: 1rem;
     height: 5rem;
     display: flex;
     align-items: center;
-    background-color: #afef56;
+    background-color: #c5f87e;
     border-radius: 5rem;
 }
 

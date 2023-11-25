@@ -158,6 +158,7 @@
       </div>
     </div>
     <div class="containerImg">
+      
       <div class="bg image1">
         <p class="text"></p>
       </div>
@@ -220,21 +221,23 @@
       });
       document.addEventListener("scroll", function () {
         const timelineIntro = document.querySelector(".timelineintro");
-        const spaceship = document.getElementById("spaceship");
+        //const spaceship = document.getElementById("spaceship");
 
         const scrollPercentage =
           (window.scrollY /
             (document.documentElement.scrollHeight - window.innerHeight)) *
           100;
 
-        spaceship.style.transform = `translateX(${scrollPercentage}vw)`;
+        //spaceship.style.transform = `translateX(${scrollPercentage}vw)`;
 
-        if (scrollPercentage >= 20) {
+        /*if (scrollPercentage >= 20) {
           spaceship.style.opacity = 1;
         } else {
           spaceship.style.opacity = 0;
-        }
-      });
+        }*/
+      }) ;
+
+
     </script>
   </body>
 </html>
