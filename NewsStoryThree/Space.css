@@ -170,6 +170,15 @@ color: #ffffff;
     position: relative;
     margin: 0 auto;
 }
+.timeline a{
+    text-decoration: none;
+    color: white;
+    background-color:darkcyan;
+    padding: 0.5rem;
+    position: relative;
+    display: flex;
+    width: fit-content;
+}
 
 .timeline::after {
     content: '';
@@ -377,8 +386,8 @@ button:hover {
 }
 .paraQuote p{
     margin-top: 150px;
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
     padding: 2rem;
     max-width: 50rem;
     font-size: 1.5rem;
@@ -388,6 +397,12 @@ button:hover {
     text-align: left;
     margin-left: 80px;
     
+}
+.text{
+    color: aliceblue;
+    text-align: center;
+    width: 50%;
+    margin-top: 600px;
 }
 
   
@@ -435,10 +450,6 @@ button:hover {
         left: 0%;
     }
 
-    .bg {
-        height: 100vh;
-        width: 100vw;
-    }
     .paraone{
         font-size: 17px;
     margin-left: -100px;
@@ -447,13 +458,5 @@ button:hover {
         font-size: 17px;
     }
   
-}
-
-
-.text{
-    color: aliceblue;
-    text-align: center;
-    width: 50%;
-    margin-top: 600px;
 }
 
